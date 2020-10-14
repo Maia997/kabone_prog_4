@@ -10,8 +10,7 @@ namespace Kabone
         public string modelo { get; set; }
 
         public virtual void view()
-        {
-            
+        {         
             
         }
     }

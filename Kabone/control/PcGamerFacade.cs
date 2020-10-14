@@ -55,8 +55,8 @@ namespace Kabone.control
             ((ComputadorComposite)computador).add(this.placaMae);
             ((ComputadorComposite)computador).add(this.placaDeVideo);
 
-            ((ComputadorComposite)computador).view();
-
+            var banco = new BancoCommand(ConexaoSingleton.getConexao(), "salvar", ((ComputadorComposite)computador));
+            banco.executa();
         }
 
     }

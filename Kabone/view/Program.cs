@@ -10,11 +10,13 @@ namespace Kabone
 
             MontarPCDiretor diretor = new MontarPCDiretor();
             MontarPcGamer pcgamer = new MontarPcGamer();
+            MontarPcComum pccomum = new MontarPcComum();
 
             diretor.montarPCGamer(pcgamer);
 
+            diretor.montarPCComum(pccomum);
 
-
+            diretor.visualizarPc();
 
         }
     }

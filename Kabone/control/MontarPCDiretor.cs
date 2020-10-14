@@ -17,12 +17,17 @@ namespace Kabone.control
         public void montarPCGamer(IMontarPC builder)
         {
             builder.montarPC();
-
         }
 
         public void montarPCComum(IMontarPC builder)
         {
             builder.montarPC();
+        }
+
+        public void visualizarPc()
+        {
+            var banco = new BancoCommand(ConexaoSingleton.getConexao(), "visualizar");
+            banco.executa();
         }
     }
 }

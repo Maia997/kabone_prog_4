@@ -23,7 +23,7 @@ namespace Kabone
             {
                 item.view();
             }
-        } 
+        }
 
     }
 }
