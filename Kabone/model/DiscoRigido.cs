@@ -13,8 +13,7 @@ namespace Kabone
 
         public override void view()
         {
-            Console.WriteLine($"Marca: {this.marca} \n Modelo: {this.modelo}");
-            Console.WriteLine($"Tipo: {tipo} \n Tamanho: {tamanho}");
+            Console.WriteLine($"HD: \n Marca: {this.marca} - Modelo: {this.modelo} - Tipo: {tipo} - Tamanho: {tamanho}");
         }
     }
 }

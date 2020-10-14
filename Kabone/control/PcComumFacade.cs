@@ -11,7 +11,6 @@ namespace Kabone.control
         private MemoriaRAM memoriaRAM = null;
         private Fonte fonte = null;
         private Gabinete gabinete = null;
-        private PlacaDeVideo placaDeVideo = null;
         private PlacaMae placaMae = null;
 
         public PcComumFacede()
@@ -21,7 +20,6 @@ namespace Kabone.control
             this.memoriaRAM = new MemoriaRAM();
             this.fonte = new Fonte();
             this.gabinete = new Gabinete();
-            this.placaDeVideo = new PlacaDeVideo();
             this.placaMae = new PlacaMae();
         }
 
@@ -52,6 +50,8 @@ namespace Kabone.control
             ((ComputadorComposite)computador).add(this.gabinete);
             ((ComputadorComposite)computador).add(this.placaMae);
 
+            var banco = new BancoCommand(ConexaoSingleton.getConexao(), "salvar", ((ComputadorComposite)computador));
+            banco.executa();
         }
 
 

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Diego Broetto\\Documents\\Faculdade\\Linguagem de Programação IV\\Kabone\\Kabone\\Kabone\\Kabone.csproj": {}
+    "C:\\Users\\robson.quedevez\\Desktop\\Kabone\\kabone_prog_4\\Kabone\\Kabone.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Diego Broetto\\Documents\\Faculdade\\Linguagem de Programação IV\\Kabone\\Kabone\\Kabone\\Kabone.csproj": {
+    "C:\\Users\\robson.quedevez\\Desktop\\Kabone\\kabone_prog_4\\Kabone\\Kabone.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Diego Broetto\\Documents\\Faculdade\\Linguagem de Programação IV\\Kabone\\Kabone\\Kabone\\Kabone.csproj",
+        "projectUniqueName": "C:\\Users\\robson.quedevez\\Desktop\\Kabone\\kabone_prog_4\\Kabone\\Kabone.csproj",
         "projectName": "Kabone",
-        "projectPath": "C:\\Users\\Diego Broetto\\Documents\\Faculdade\\Linguagem de Programação IV\\Kabone\\Kabone\\Kabone\\Kabone.csproj",
-        "packagesPath": "C:\\Users\\Diego Broetto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Diego Broetto\\Documents\\Faculdade\\Linguagem de Programação IV\\Kabone\\Kabone\\Kabone\\obj\\",
+        "projectPath": "C:\\Users\\robson.quedevez\\Desktop\\Kabone\\kabone_prog_4\\Kabone\\Kabone.csproj",
+        "packagesPath": "C:\\Users\\robson.quedevez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\robson.quedevez\\Desktop\\Kabone\\kabone_prog_4\\Kabone\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Diego Broetto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\robson.quedevez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
